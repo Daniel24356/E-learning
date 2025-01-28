@@ -18,7 +18,11 @@ const UserDB = () => {
 
           <div className="sidebyside">
             <Userbar/>
-            <UserDash/>
+            <UserDash
+            enrolled = "0"
+            active = "0"
+            completed = "0"
+            />
           </div>
     </div>
   )
