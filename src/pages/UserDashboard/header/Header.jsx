@@ -11,15 +11,15 @@ const Header = (props) => {
             </div>
 
             <div className="sideName">
-                <h1>{props.name}Korede Anunusor Ezetah</h1>
+                <h1>{props.name}</h1>
                 <div className="sideName2">
-               <p>{props.courses} Course Enrolled <GoDotFill 
+               <p>{props.courseshead} Course Enrolled <GoDotFill 
                style={{
                     fontSize: "11px",
                     marginLeft: "5px",
                     marginRight: "5px"
                }}/> 
-               {props.completed} Course Completed</p>
+               {props.completedhead} Course Completed</p>
                 </div>
             </div>
 

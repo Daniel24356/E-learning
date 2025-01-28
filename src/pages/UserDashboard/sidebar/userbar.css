@@ -20,16 +20,18 @@
     display: flex;
     /* justify-content: center; */
     align-items: center;
-}
+    font-family: "Nunito Sans", serif;
+}   
 
 .link{
     text-decoration: none;
-    width: 95%;
+    width: 98%;
     height: 100%;
     display: flex;
     align-items: center;
     gap: 28px;
-    font-size: 19px;
+    font-size: 17px;
+    font-family: "Nunito Sans", serif;
 }
 
 /* #553cde */

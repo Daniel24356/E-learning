@@ -1,17 +1,110 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Matemasie&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
 .dashboard{
-    width: 810px;
+    width: 1000px;
     height: 500px;
     border: 1px solid #cecfd4;
     border-radius: 5px;
-    padding: 20px;
+    padding: 23px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
-.dashboard> h4{
+.selectPic{
+    width: 99%;
+    height: 70px;
+    border: 1px solid  #553cde;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    gap: 45%;
+}
+
+.dashleft{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+.dashleft> p{
     font-family: "Nunito Sans", serif;
-    color: #080f34;
-    font-size: 20px;
+    color: #5e5a5b;
+}
+
+.selectPic> button{
+    width: 97px;
+    height: 39px;
+    color: #553cde;
+    background-color: #baaffa41;
+    border: solid 1px #817b7c4d;
+    border-radius: 7px;
+    font-family: "Nunito Sans", serif;
+    font-size: 15px;
+    text-align: center;
+}
+.selectPic> button:hover{
+    cursor: pointer;
+}
+
+.dashboard> h3{
+    font-family: "Nunito Sans", serif;
+    color: #1e1930;
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.sequenceDiv{
+    width: 99%;
+    height: 63%;   
+    display: flex;
+    gap: 30px;
+}
+
+.sequenceContent{
+    width: 300px;
+    height: 100%;
+    border: 1px solid #cecfd4;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center{
+    width: 170px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.sideIcon{
+    width: 65px;
+    height: 65px;
+    background-color: aliceblue;
+    border: 1px solid #dddbe9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.center> h2{
+    font-size: 35px;
+    font-family: "Nunito Sans", serif;
+}
+
+.center> p{
+    color: #5e5a5b;
+    font-size: 17px;
+    font-family: "Nunito Sans", serif;
+    font-weight: 600;
 }
 /* #080f34 */
+/* #553cde */
 /* font-family: "Nunito Sans", serif; */

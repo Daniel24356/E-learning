@@ -4,6 +4,7 @@ import './App.css'
 import Userbar from './pages/UserDashboard/sidebar/Userbar'
 import Header from './pages/UserDashboard/header/Header'
 import UserDash from './pages/UserDashboard/userdash/UserDash'
+import UserDB from './pages/UserDashboard/UserDB'
 
 function App() {
 
@@ -11,7 +12,7 @@ function App() {
     <>
        <Router>
         <Routes>
-          <Route path="/" element={<UserDash/>} />
+          <Route path="/" element={<UserDB/>} />
         </Routes>
        </Router>
     </>
