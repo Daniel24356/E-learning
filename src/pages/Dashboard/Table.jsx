@@ -1,6 +1,6 @@
 import "./Table.css"
 import { FaAngleDown } from "react-icons/fa6";
-import img from "../assets/man.avif"
+import img from "../../assets/man.avif"
 const Table = () => {
     const data = [
         {

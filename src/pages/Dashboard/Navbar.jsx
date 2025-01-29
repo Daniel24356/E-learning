@@ -1,7 +1,7 @@
 import "./Navbar.css"
 import { CiSearch } from "react-icons/ci";
 import { FaRegBell } from "react-icons/fa6";
-import man from "../assets/man.avif"
+import man from "../../assets/e-logo.jpeg"
 const Navbar = () => {
   return (
     <>

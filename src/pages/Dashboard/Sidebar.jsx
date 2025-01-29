@@ -1,5 +1,5 @@
 import "./Sidebar.css";
-import logo from "../assets/real-logo.png"
+import logo from "../../assets/logo.avif"
 import { LuLayoutDashboard } from "react-icons/lu";
 import { TiDocumentText } from "react-icons/ti";
 import { IoPersonSharp } from "react-icons/io5";
