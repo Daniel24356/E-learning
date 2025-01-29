@@ -1,0 +1,54 @@
+.logo {
+    width: 80px;
+}
+
+.smallertext {
+    font-size: 13px;
+    color: grey;
+}
+
+.toplogodiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.each {
+    color: grey;
+    text-decoration: none;
+    font-size: 20px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.each-green {
+    color: rgb(0, 255, 119);
+    text-decoration: none;
+    font-size: 20px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    font-size: 27px;
+}
+
+.each-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+.sidebar-links {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 70px;
+    gap: 30px;
+}

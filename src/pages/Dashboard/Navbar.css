@@ -1,0 +1,30 @@
+.search {
+    color: rgb(0, 255, 119);
+    font-size: 50px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.man {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.second-div {
+     display: flex;
+     align-items: center;
+     gap: 20px;
+}
+
+.first-div {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+
+.main-div {
+    display: flex;
+    justify-content: space-between;
+}
