@@ -1,0 +1,124 @@
+.art-sec{
+    margin-top: 130px;
+    padding: 0px 33px;
+}
+.bulb-ar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.bulb-ar img{
+    width: 22px;
+    height: 22px;
+}
+.bulb-ar p{
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(85, 60, 223);
+}
+.read-txt{
+    font-size: 38px;
+    font-weight: 600;
+    color: rgb(17, 12, 45);
+    text-align: center;
+    margin-top: 10px;
+}
+.miss-txt{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(119, 119, 119);
+    text-align: center;
+    margin-top: 19px;
+}
+.art-cont{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 25px;
+    margin-top: 50px;
+}
+.art-box{
+    padding: 30px;
+    width: 380.77px;
+    height: 481.646px;
+    border: 1px solid rgb(221, 216, 249);
+    border-radius: 6px;
+    position: relative;
+}
+.story-div{
+    width: 60.6px;
+    height: 34px;
+    background-color: rgb(238, 235, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(85, 60, 223);
+    border-radius: 2px;
+    position: absolute;
+    top: 45px;
+    left: 45px;
+}
+.story-div p{
+    font-size: 16px;
+    font-weight: 400;
+}
+.art-box img{
+    width: 319.48px;
+    height: 191.729px;
+    border-radius: 5px;
+    /* object-fit: cover; */
+}
+.art-box button{
+    width: 163.969px;
+    height: 47.33px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(85, 60, 223);
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+}
+.art-box button:hover{
+    background-color:rgb(255, 255, 255);
+    color: rgb(85, 60, 223);
+    transition: .4s ease-in-out;
+    cursor: pointer;
+    border: 1px solid rgb(85, 60, 223);
+}
+.date-cont{
+    display: flex;
+    gap: 40px;
+    margin-top: 30px;
+}
+.date-cont div{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.cals-icons{
+    font-size: 16px;
+    color:rgb(119, 119, 119);
+}
+.user-icons{
+    font-size: 20px;
+    color:rgb(119, 119, 119) ;
+}
+.date-cont p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(119, 119, 119);
+}
+.max-txt{
+    margin-top: 15px;
+}
+.max-txt h3{
+    font-size: 24px;
+    font-weight: 700;
+    color: rgb(17, 12, 45);
+    line-height: 29.76px;
+}

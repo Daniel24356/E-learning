@@ -1,0 +1,110 @@
+.footer{
+    padding: 100px 60px;
+    background-color: rgb(249,248,255);
+}
+.footer-inner{
+    display: flex;
+    justify-content: space-between;
+    /* grid-template-columns: repeat(4,1fr); */
+}
+.footer-ed{
+    margin-top: 20px;
+}
+.footer-ed p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(119, 119, 119);
+    line-height: 26px;
+}
+.footer li{
+    text-decoration: none;
+    list-style: none;
+}
+.footer UL{
+    font-size: 18px;
+    font-weight: 700;
+}
+.footer ul li{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(119, 119, 119);
+    margin-top: 22px;
+}
+.yarra-div{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    color: rgb(85, 60, 223);
+}
+.yarra-div p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(119, 119, 119);
+}
+.new-sus{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(119, 119, 119);
+    line-height: 26px;
+    margin-top: 20px;
+    width: 300px;
+}
+.search-btn{
+    width: 340.698px;
+    height: 54.3px;
+    border: 1px solid rgb(221, 216, 249);
+    display: flex;
+    align-items: center;
+    padding: 0px 15px;
+    border-radius: 4px;
+    margin-top: 30px;
+}
+.search-btn input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    width: 215px;
+}
+.search-btn button{
+    width: 97.3px;
+    height: 32px;
+    background-color: rgb(85, 60, 223);
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+}
+.checkbox-div{
+    display: flex;
+    gap: 10px;
+    margin-top: 39px;
+}
+.checkbox-div p{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(115, 116, 119);
+}
+.copyright-div{
+    padding-top: 23px;
+    border-top: 1px solid gainsboro;
+    background-color:rgb(249,248,255);
+    padding-left: 10px;
+    padding-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.copyright-div p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(119, 119, 119);
+}
+.copy-innerdiv{
+    display: flex;
+    gap: 25px;
+    margin-right: 30px;
+    font-size: 19px;
+}

@@ -1,0 +1,160 @@
+.feat-sec{
+   padding: 100px 20px;
+}
+.featured-bx{
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+}
+.featured-right{
+    margin-top: 12px;
+}
+.featured-right h1{
+    font-size: 37px;
+    font-weight: 600;
+    color: rgb(17, 12, 45);
+}
+.featured-right p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(119, 119, 119);
+    margin-top: 20px;
+}
+.featured-left{
+    display: flex;
+    gap: 13px;
+}
+.all-active{
+    width: 40.11px;
+    height: 24px;
+    background-color: rgb(85, 60, 223);
+    color: white;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+}
+.accou-div{
+    padding: 3px 12px;
+    background-color: rgb(238, 235, 255);
+    height: 24px;
+    font-size: 14px;
+    color: rgb(85, 60, 223);
+    border-radius: 2px;
+}
+.accou-div:hover{
+     background-color: rgb(85, 60, 223);
+     color: white;
+     transition: .3s ease-in-out;
+     cursor: pointer;
+}
+.feat-cont{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 25px;
+    row-gap: 25px;
+    margin-top: 10px;
+}
+.featured-div{
+    width: 285.583px;
+    height: 504.03px;
+    border: 1px solid gainsboro;
+    padding: 25px 24px;
+    border-radius: 6px;
+    position: relative;
+}
+.bookmark{
+    width: 34px;
+    height: 34px;
+    background-color: rgba(125, 124, 129, 0.5);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 38px;
+    right: 33px;
+}
+.book-icons{
+    color: white;
+}
+.bookmark:hover{
+    background-color: rgb(85, 60, 223);
+    cursor: pointer;
+    border: none;
+    transition: .3s ease-in-out;
+}
+.dance-img{
+    height: 171.03px;
+    width: 236.25px;
+}
+.bus-div{
+    height: 28px;
+    width: 33%;
+    background-color: rgb(238, 235, 255);
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(85, 60, 223);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.lesson-icon{
+    margin-top: 20px;
+    display: flex;
+    gap: 23px;
+}
+.lesson-icon div{
+    display: flex;
+    gap: 7px;
+}
+.lesson-icon div p{
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(115, 116, 119);
+}
+.outline-icons{
+    color: rgb(115, 116, 119);
+    font-size: 18px;
+}
+.how-txt{
+    margin-top: 25px;
+}
+.how-txt h3{
+    font-size: 20px;
+    font-weight:600;
+    color: rgb(17, 12, 45);
+    line-height: 28px;
+}
+.jhon-txt{
+    font-size: 13px;
+    font-weight: 500;
+    color: rgb(115, 116, 119);
+    margin-top: 20px;
+}
+.star-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.star-box div{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.star-box div img{
+    width: 90px;
+}
+.star-box div p{
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(17, 12, 45);
+}
+.free-txt{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(85, 60, 223);
+}

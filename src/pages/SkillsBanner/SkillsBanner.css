@@ -1,0 +1,46 @@
+.skillbanner-sec{
+    background-image: url(../../assets/slim-2.png);
+    height: 252px;
+    display: flex;
+    gap: 180px;
+    padding: 25px 60px 0px 60px;
+    margin: 0px 11px;
+    margin-top: 150px;
+    border-radius: 6px;
+}
+.skillbanner-sec img{
+    width: 210px;
+    height: 227px;
+    object-fit: contain;
+}
+.skl-div{
+    display: flex;
+    align-items: center;
+    gap: 21px;
+}
+.skillbanner-sec div div h1{
+    font-size: 45px;
+    font-weight: 600;
+    color: white;
+}
+.skillbanner-sec div button{
+    height: 55.33px;
+    width: 226.948px;
+    border: none;
+    background-color: white;
+    color: rgb(85, 60, 223);
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+}
+.skillbanner-sec div button:hover{
+    background-color: rgb(85, 60, 223);
+    color: white;
+    transition: .4s ease-in-out;
+    cursor: pointer;
+    border: 1px solid white;
+}

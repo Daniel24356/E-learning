@@ -1,0 +1,181 @@
+.know-sec{
+    background-color: rgba(245, 243, 243, 0.068);
+    margin: 0px 12px;
+}
+.trust-div{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    padding: 90px 8px;
+}
+.trust-by p{
+    font-size: 24px;
+    font-weight: 600;
+}
+.edu-div{
+    /* display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 13%; */
+    display: flex;
+    align-items: center;
+    gap: 33%;
+}
+.edu-div div img{
+    width: 65px;
+}
+.study-sec{
+    display: flex;
+    gap: 60px;
+}
+.pos-rev{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.pos-rev h1{
+    font-size: 44px;
+    font-weight: 600;
+    color: white;
+}
+.pos-rev p{
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+}
+.positive-div{
+    width: 187.9px;
+    height: 109px;
+    background-image: url(../../assets/box-bg.jpg);
+    background-size: cover;
+    background-position-x:50%;
+    background-position-y:50%;
+    padding: 18px 8px;
+    display: flex;
+    align-items: center;
+}
+.positive-box{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.headphone{
+    display: flex;   
+    gap: 22px;
+}
+.blueb img{
+    width: 50px;
+}
+.girlp img{
+    width: 187.9px;
+    height: 319.83px;
+}
+.play-btn{
+    position:absolute;
+    top: 44%;
+    left: 44%;
+    width: 60px;
+    height:60px;
+    background-color:white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.play-icon{
+    color: rgb(85,60,223);
+    font-size: 20px;
+}
+.girlb{
+    width: 381.26px;
+    height: 470px;
+    background-image:url(https://studyhub.themewant.com/wp-content/uploads/2024/03/01.jpg);
+    background-size: cover;
+    background-position-x:50%;
+    background-position-y:50%;
+    border-radius: 6px;
+    position:relative;
+}
+.learn-me{
+    display: flex;
+    align-items: center;
+    gap:25px;
+    margin-top: 30px;
+    padding-bottom: 35px;
+    border-bottom: 1px solid rgb(220, 220, 220);
+}
+.pass-txt{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(115, 116, 119);
+    /* white-space: nowrap; */
+}
+.prof-box{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.prof-box img{
+    width: 54px;
+    height: 53px;
+}
+.exp-txt{
+    font-size: 19px;
+    font-weight: 600;
+    color: rgb(34, 24, 89);
+}
+.cir-p{
+    display: flex;
+    align-items: center;
+    gap: 55px;
+    padding-top: 30px;
+}
+.cir-p button{
+    width: 140px;
+    height: 55.33px;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    background-color: rgb(85, 60, 223);
+    border: none;
+    border-radius: 4px;
+}
+.cir-p button:hover{
+    background-color:rgb(255, 255, 255);
+    color: rgb(85, 60, 223);
+    transition: .4s ease-in-out;
+    cursor: pointer;
+    border: 1px solid rgb(85, 60, 223);
+}
+.prof-cir{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.prof-cir img{
+    width: 68.3px;
+    object-fit: contain;
+}
+.studyhub{
+    margin-top: 20px;
+}
+.studyhub h1{
+    font-size: 40px;
+    font-weight: 600;
+    color: rgb(17, 12, 45);
+    line-height: 49.6px;
+}
+.passionate{
+    margin-top: 30px;
+}
+
+.passionate p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(119, 119, 119);
+    line-height: 26px;
+}
+.ap-name{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}

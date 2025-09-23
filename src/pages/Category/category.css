@@ -1,0 +1,93 @@
+.category-sec{
+    background-image: url(../../assets/bg-1.jpg);
+    /* height: 669.26px; */
+    height: 108vh;
+    padding: 110px 20px;
+    margin-top: 120px;
+}
+.top-me{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+}
+.top-txt{
+    text-align: center;
+    font-size: 16px;
+    color: rgb(85, 60, 223);
+    font-weight: 500;
+}
+.explore-num h1{
+    text-align: center;
+    color: rgb(17, 12, 45);
+    margin-top: 20px;
+    font-size: 37px;
+    font-weight: 600;
+}
+.explore-num p{
+    text-align: center;
+    margin-top: 25px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(119, 119, 119);
+}
+.acc-div{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 60px;
+}
+.acc-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 178px;
+    height: 205.3px;
+    background-color: white;
+    border: 1px solid rgb(221, 216, 249);
+    border-radius: 5px;
+}
+.acc-box:hover{
+    cursor: pointer;
+    border: 1px solid rgb(85, 60, 223);
+    transition: .3s ease-in-out;
+}
+.acc-box img{
+    width: 60px;
+    height: 64px;
+}
+.acc-box h3{
+    color: rgb(34, 24, 89);
+    font-size: 19px;
+    font-weight: 600;
+    margin-top: 18px;
+}
+.acc-box p{
+    color: rgb(34, 24, 89);
+    font-size: 16px;
+    font-weight: 400;
+    margin: 10px;
+}
+.icons-sign{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 23px;
+    margin-top: 35px;
+}
+.icons-sign div{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.arr-icons{
+    font-size: 27px;
+    color: rgb(85, 60, 223);
+}
+.dot-icons{
+    color:rgb(216,210,248) ;
+}
+.dot-iconss{
+    color:rgb(85, 60, 223);
+}
