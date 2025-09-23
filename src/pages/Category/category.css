@@ -53,10 +53,10 @@
     border: 1px solid rgb(85, 60, 223);
     transition: .3s ease-in-out;
 }
-.acc-box img{
+/* .acc-box img{
     width: 60px;
     height: 64px;
-}
+} */
 .acc-box h3{
     color: rgb(34, 24, 89);
     font-size: 19px;
