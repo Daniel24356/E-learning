@@ -115,12 +115,12 @@
     cursor: pointer;
     border: 1px solid rgb(85, 60, 223);
 }
-.prof-div{
+/* .prof-div{
     display: flex;
     align-items: center;
     gap: 45px;
     margin-top: 30px;
-}
+} */
 .prof-img{
     display: flex;
     align-items: center;
