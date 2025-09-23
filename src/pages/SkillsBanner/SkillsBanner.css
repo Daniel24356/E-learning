@@ -13,11 +13,11 @@
     height: 227px;
     object-fit: contain;
 }
-.skl-div{
+/* .skl-div{
     display: flex;
     align-items: center;
     gap: 21px;
-}
+} */
 .skillbanner-sec div div h1{
     font-size: 45px;
     font-weight: 600;
