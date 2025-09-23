@@ -51,11 +51,11 @@
     width: 285.583px;
     height: 316px;
 }
-.bulbs-div{
+/* .bulbs-div{
     display: flex;
     align-items: center;
     gap: 12px;
-}
+} */
 .bulbs-div img{
     height: 22px;
     width: 22px;
