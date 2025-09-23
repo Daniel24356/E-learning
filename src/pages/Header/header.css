@@ -1,0 +1,152 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    background-color: rgb(85,60,223);
+    height: 37.33px;
+}
+
+.head-all.fixed{
+    height: 118px;
+    position: fixed;
+    top: 0;
+    padding-top: 0;
+    /* border-color: rgb(126, 126, 126); */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .05);
+    width: 100%;
+    z-index: 100;
+}
+.header-left{
+    display: flex;
+    align-items: center;
+    gap: 34px;
+}
+.gmail-h{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.mail-icons{
+    color: white;
+    font-size: 18px;
+}
+.gmail-h p{
+    color: white;
+    font-size:14px;
+    font-weight: 400;
+}
+.num-h{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.ph-icons{
+    color: white;
+}
+.num-h p{
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+}
+.add-h{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+.loc-icons{
+    color: white;
+    font-size: 20px;
+}
+.add-h p{
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+    height: 80px;
+    background-color: white;
+}
+.logo-img{
+    width: 144px;
+}
+.nav-left{
+    display: flex;
+    gap: 40px;
+}
+.cat-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 10px 15px;
+    width: 177.49px;
+    height: 39.33px;
+    border: 1px solid rgb(187, 177, 242);
+    color: rgb(85, 60, 223);
+    font-size: 16px;
+    font-weight: 400;
+    background-color: rgb(251, 250, 255);
+    border-radius: 4px;
+}
+.out-icons{
+    font-size: 23px;
+}
+.down-icons{
+    font-size: 19px;
+    font-weight: 400;
+}
+.nav-mid{
+    display: flex;
+    gap:30px;
+}
+.nav-mid div{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.nav-mid div p{
+    font-size: 16px;
+    font-weight: 400;
+}
+.nav-right{
+    display: flex;
+    gap: 15px;
+}
+.log-btn{
+    width: 94.3px;
+    height: 39.3px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(85, 60, 223);
+    border: 1px solid rgb(85, 60, 223);
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+}
+.log-btn:hover{
+    background-color: rgb(85, 60, 223);
+    color: white;
+    transition: .4s ease-in-out;
+    cursor: pointer;
+}
+.dashboard-btn{
+    width: 123.792px;
+    height: 39.3px;
+    border: none;
+    background-color: rgb(85, 60, 223);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 4px;
+}
+.dashboard-btn:hover{
+    background-color:rgb(255, 255, 255);
+    color: rgb(85, 60, 223);
+    transition: .4s ease-in-out;
+    cursor: pointer;
+    border: 1px solid rgb(85, 60, 223);
+}

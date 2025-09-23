@@ -1,0 +1,104 @@
+.teach-sec{
+    padding: 100px 20px;
+}
+.teacher-div{
+    display: flex;
+    gap: 30px;
+    margin-top: 35px;
+}
+.teacher-div{
+    width: 285.583px;
+    height: 316px;
+}
+.teacher-box{
+    position: relative;
+}
+.share-div{
+    width: 34px;
+    height: 34px;
+    background-color: white;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 17px;
+    right: 20px;
+    color: rgb(85, 60, 223);
+    font-size: 20px;
+}
+.share-div:hover{
+    background-color: rgb(85, 60, 223);
+    cursor: pointer;
+    color: white;
+    transition: .3s ease-in-out;
+}
+.teacher-div div h1{
+    font-size: 23px;
+    font-weight: 600;
+    color: rgb(17, 12, 45);
+    text-align: center;
+    margin-top: 13px;
+}
+.teacher-div div p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(119, 119, 119);
+    text-align: center;
+    margin-top: 15px;
+}
+.teacher-div div img{
+    width: 285.583px;
+    height: 316px;
+}
+.bulbs-div{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.bulbs-div img{
+    height: 22px;
+    width: 22px;
+}
+.bulbs-div p{
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(85, 60, 223);
+}
+.prof-divs{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.prof-divs button{
+    width: 234px;
+    height: 55.33px;
+    background-color: rgb(85, 60, 223);
+    border:none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 17px;
+}
+.prof-divs button:hover{
+    background-color:rgb(255, 255, 255);
+    color: rgb(85, 60, 223);
+    transition: .4s ease-in-out;
+    cursor: pointer;
+    border: 1px solid rgb(85, 60, 223);
+}
+.prof-ins h1{
+    font-size: 38px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+.prof-ins p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(119, 119, 119);
+    margin-top: 22px;
+}

@@ -1,0 +1,44 @@
+.count-sec{
+    background-image: url(../../assets/slim-1.jpg);
+    display: flex;
+    margin-top: 100px;
+    height: 220.271px;
+    padding: 50px 50px;
+}
+.sec-counts{
+    width: 240.83px;
+}
+.sec-countsss{
+    width: 300.83px;
+    padding-left: 50px;
+}
+.sec-count{
+    width: 320.83px;
+    border-right: 1px solid rgb(114, 90, 249);
+    border-left: 1px solid rgb(114, 90, 249);
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.sec-countss{
+    width: 320.83px;
+    border-right: 1px solid rgb(114, 90, 249);
+    /* border-left: 1px solid white; */
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.count-sec div img{
+    width: 50px;
+    height: 50px;
+}
+.count-sec div h1{
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+    margin-top: 16px;
+}
+.count-sec div p{
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    margin-top: 8px;
+}
