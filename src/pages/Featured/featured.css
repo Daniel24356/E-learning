@@ -76,9 +76,9 @@
     top: 38px;
     right: 33px;
 }
-/* .book-icons{
+.book-icons{
     color: white;
-} */
+}
 .bookmark:hover{
     background-color: rgb(85, 60, 223);
     cursor: pointer;
